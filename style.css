@@ -18,3 +18,13 @@ body{
     flex-wrap: wrap;
     color: black;
 }
+header{
+    background-color: #A7281A;
+    margin: 7%;
+    padding: 08%;
+    width: 100%;
+
+}
+.logo{
+    image-rendering: auto;
+}
