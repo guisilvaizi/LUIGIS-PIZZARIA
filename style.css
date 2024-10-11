@@ -6,12 +6,7 @@ body{
     color: white;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: min-content 1fr min-content;
-    background-image: url('img/Background\ Wood.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
+    grid-template-rows: min-content 1fr min-content 
 }
 
 .page{
@@ -46,4 +41,4 @@ footer{
     background-attachment: fixed;
     background-size: cover;
     
-}
+} 
