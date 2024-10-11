@@ -40,3 +40,10 @@ footer{
     display: flex;
     flex-direction: row;
 }
+.fundo{
+    background-image: url('img/Background\ Wood.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
