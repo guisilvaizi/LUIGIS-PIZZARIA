@@ -18,3 +18,9 @@ body{
     flex-wrap: wrap;
     color: black;
 }
+.fundo{
+    background-image: url("..img/Wood.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
