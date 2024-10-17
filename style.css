@@ -1,3 +1,9 @@
+header{
+    background-color: #A7281A;
+    margin: 7%;
+    padding: 08%;
+    width: 100%;
+}
 body{
     color: white;
     background-image: url("../img/background_wood.jpg");
@@ -37,4 +43,10 @@ footer{
     width: 300%;
     display: flex;
     flex-direction: row;
+}
+main{
+    margin: 15%;
+    padding: 3%;
+    width: 234px
+    
 }
