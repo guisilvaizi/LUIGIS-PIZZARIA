@@ -1,33 +1,38 @@
 header{
+  color: white;
+    display: flex;
     background-color: #A7281A;
-    margin: 7%;
+    margin: 83px;
     padding: 08%;
-    width: 100%;
+    width: 75%;
+    height: 200px;
+}
+h1 {
+    text-align:center left;
+ }
+ h3 {
+    text-align: center left;
+  }
+  .logo{
+    border: 25px;
+    image-rendering: auto;
+    align-items: start;
 }
 body{
-    color: white;
     background-image: url("../img/background_wood.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
+    
 }
-header{
-    background-color: #A7281A;
-    margin: 7%;
-    padding: 08%;
-    width: 1165px;
-    height: 222px;
+main{
+  background-color: #F2E9C2;
+  margin: 7%;
+  padding: 8%;
+  width: 1165px;
+  height: 951px;
+  display: flex;
 }
-h1 {
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  .logo{
-    image-rendering: auto;
-    align-items: start;
-  }
 .page{
     width: 1280px;
     margin: auto;
@@ -38,9 +43,9 @@ h1 {
     color: white;
 }
 footer{
+  color: white;
     padding: 10px;
     width: 100%;
-    width: 300%;
     display: flex;
     flex-direction: row;
 }
