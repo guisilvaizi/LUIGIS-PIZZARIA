@@ -26,12 +26,13 @@ body{
     
 }
 main{
-  background-color: #F2E9C2;
+  background-color:green;
   margin: 7%;
-  padding: 8%;
-  width: 1165px;
-  height: 951px;
-  display: flex;
+  padding: 11px;
+  width: 90%;
+  height: 150px;
+  display:grid;
+  grid-template-columns:50% 30% 50% 40% 40%;
 }
 .page{
     width: 1280px;
@@ -48,10 +49,4 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: row;
-}
-main{
-    margin: 15%;
-    padding: 3%;
-    width: 234px
-    
 }
