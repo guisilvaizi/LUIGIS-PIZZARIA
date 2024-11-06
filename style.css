@@ -25,6 +25,7 @@ body{
     background-size: 100%;
     
 }
+<<<<<<< Updated upstream
 main{
   background-color:green;
   margin: 7%;
@@ -34,6 +35,26 @@ main{
   display:grid;
   grid-template-columns:50% 30% 50% 40% 40%;
 }
+=======
+header{
+    background-color: #A7281A;
+    margin: 7%;
+    padding: 08%;
+    width: 2000px;
+    height: 225px;
+}
+h1 {
+    text-align: center;
+    
+  }
+  h3 {
+    text-align: center;
+  }
+  .logo{
+    image-rendering: auto;
+    align-items: start;
+  }
+>>>>>>> Stashed changes
 .page{
     width: 1280px;
     margin: auto;
