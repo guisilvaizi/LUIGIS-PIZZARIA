@@ -1,11 +1,17 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
 header{
   color: white;
     display: flex;
     background-color: #A7281A;
-    margin: 83px;
-    padding: 08%;
-    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+    width: 95%;
     height: 200px;
+    
 }
 h1 {
     text-align:center left;
@@ -22,9 +28,11 @@ body{
     background-image: url("../img/background_wood.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    
+    background-size: 100%; 
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
+<<<<<<< Updated upstream
 main{
   background-color:green;
   margin: 7%;
@@ -52,6 +60,32 @@ h1 {
     image-rendering: auto;
     align-items: start;
   }
+=======
+.link{
+  list-style-type:none;
+  margin:5%;
+  padding: 2%;
+  display:flex;
+  gap:190px;
+}
+.link li a{
+  color :white; text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+main {
+  background-color: green;
+  margin: -10px auto 20px auto;
+  padding: 40px;
+  width: 95%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 190px;
+}
+
+>>>>>>> Stashed changes
 .page{
     width: 1280px;
     margin: auto;
