@@ -28,6 +28,12 @@ header{
  justify-content: center; /* Alinha o conteúdo no centro horizontalmente */
   align-items: center; /* Alinha o conteúdo no centro verticalmente */
 }
+
+.logo img {
+  display: block; /* Remove espaços extras ao redor da imagem */
+  max-width: 100%; /* Garante que a imagem seja responsiva */
+  height: auto; /* Mantém as proporções da imagem */
+}
 h1, h3 {
   text-align: center;
 }
@@ -82,7 +88,14 @@ main {
   text-decoration: none; /* Remover sublinhado de links */
   color: white; /* Garantir que os links sejam brancos */
 }
-
+.menu {
+  list-style: none;
+  display: flex; /* Exibe itens lado a lado */
+  justify-content: space-between; /* Espaçamento horizontal */
+  gap: 220px; /* Espaçamento entre os itens */
+  padding: 0;
+  margin: 0;
+}
   ul, ol {
     list-style: none;
     padding: 0;
