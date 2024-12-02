@@ -203,6 +203,7 @@ button {
 
 
 article{
+  font-family: 'Merienda';
     background-color: rgb(242, 233, 194);
     margin: 0 auto;
     padding: 20px;
@@ -210,6 +211,29 @@ article{
     min-height: 600px;
     max-width: 1200px; 
 }
+
+.colunas {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Ajustar a largura conforme necessário */
+  
+}
+
+.item {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 12em;
+  /* Se quiser adicionar um espaçamento entre a imagem e o texto, use: */
+  /* margin-top: 10px; */
+}
+
+.Principal{
+  justify-content: center;
+}
+
 
   ul, ol {
     list-style: none;
