@@ -99,8 +99,10 @@ main{
 }
 
 .menu img {
-  width: 50px;
+  width: 40px;
   height: auto;
+  padding-top: 35%;
+  
   
   
 }
@@ -110,8 +112,9 @@ main{
   flex-shrink: 0;
 }
 .menu li {
-  flex: 0; 
+  display:flex; 
   text-align: center; 
+  
 }
 
 .menu i {
@@ -125,6 +128,7 @@ main{
   
   background-color: #F2E9C2; 
   height: 75px;
+  
   
   
 }
@@ -222,8 +226,8 @@ article{
     color: white;
 }
 footer{
-  padding: : 20%;
-  color: white;
+    padding:  30px;
+    color: white;
     width: center;
     display: flex;
     flex-direction: row;
