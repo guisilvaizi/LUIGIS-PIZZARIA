@@ -222,22 +222,23 @@ article{
     color: white;
 }
 footer{
+  padding: : 20%;
   color: white;
-    padding: 20px;
-    width: 100%;
+    width: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     align-items: center; 
+    margin: 25px;
 }
 
 footer .socialMedia {
+margin: 10px;
 display: flex;
 align-items: center;
-gap: 10px; 
-margin-left: 20%;
 }
 
 footer .Copyright {
-margin-left: 20%; 
+  width: auto;
+
 }
