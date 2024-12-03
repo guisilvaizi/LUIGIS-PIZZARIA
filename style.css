@@ -196,7 +196,7 @@ button {
   color: white;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
 }
 
@@ -230,10 +230,19 @@ article{
   /* margin-top: 10px; */
 }
 
-.Principal{
-  justify-content: center;
+.principal{
+  text-align: center;
 }
 
+.center-botao{
+  text-align: center;
+}
+
+.meu-botao-especial {
+  font-family: 'Merienda';
+  justify-content: center;
+  font-size: 30px;
+}
 
   ul, ol {
     list-style: none;
