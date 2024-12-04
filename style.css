@@ -96,6 +96,15 @@ main{
 .menuesq{
   margin-left: auto;
   padding-right: 10px;
+  padding-left: 10px;
+  background-color: #F2E9C2; 
+  height: 75px;
+}
+
+.menuesqsemcor{
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .menu img {
@@ -151,6 +160,19 @@ main{
 
 .button:focus {
   outline: none;
+}
+
+.center-botao{
+  text-align: center;
+}
+
+.meu-botao-especial {
+  background-color: #8B0000;
+  color: #F2E9C2;
+  font-family: 'Merienda';
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 20px;
 }
 
 
@@ -327,15 +349,7 @@ article{
   text-align: center;
 }
 
-.center-botao{
-  text-align: center;
-}
 
-.meu-botao-especial {
-  font-family: 'Merienda';
-  justify-content: center;
-  font-size: 30px;
-}
 
   ul, ol {
     list-style: none;
