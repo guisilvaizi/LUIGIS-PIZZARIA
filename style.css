@@ -167,8 +167,8 @@ main{
 .grid3x3{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 10fr;
-  row-gap: 17em;
+  grid-template-rows: 1fr;
+  row-gap: 8em;
   flex-direction: column;
   
 }
@@ -441,11 +441,10 @@ article{
 }
 
 footer .iconsmedia {
-    padding:  3%;
+    padding:  2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
 }
 
 footer .socialMedia {
