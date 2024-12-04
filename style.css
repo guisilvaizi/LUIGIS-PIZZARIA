@@ -137,10 +137,31 @@ main{
   
   background-color: #F2E9C2; 
   height: 75px;
-  
-  
+}
+
+
+.reviseSeuPedido{
+  text-align: center;
+  color: #8B0000;
+  font-size: 45px ;
+}
+
+.containerBotao{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 17em;
+  flex-direction: column;
   
 }
+
+.containerBotaoConteudo{
+  text-align: right;
+  grid-column: 3;
+  grid-row: 3;
+  
+}
+
 
 
 
