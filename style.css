@@ -429,11 +429,10 @@ article{
 }
 
 footer .iconsmedia {
-    padding:  3%;
+    padding:  2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
 }
 
 footer .socialMedia {
