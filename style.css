@@ -28,7 +28,7 @@ body {
 }
 header{
     background-color: #A7281A;
-    padding: 20px;
+    padding:10px 20px;
     width: 100%;
     max-width: 1200px; 
 }
@@ -45,6 +45,7 @@ body{
     background-size: 100%; 
     box-sizing: border-box;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 h1, h3 {
   text-align: center;
@@ -73,6 +74,10 @@ main{
   width: 1240px ;
   justify-content: space-between; 
   max-width: 100%; 
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  flex-grow: 1;
 
 }
   
@@ -85,6 +90,12 @@ main{
     flex-direction: column;
   }
 }
+@media (max-width:768px) {
+  header,main,body{
+    padding: px;
+  }
+  
+}
 
 
 .menu {
@@ -92,10 +103,11 @@ main{
   display: flex; 
   justify-content: flex-start; 
   gap: 40px; 
-  padding-left:10px;
+  padding-left:10px 0 ;
   margin:0 auto;
   align-items: center;
   width: 1200px;
+  padding: 0;
   font-family:'Merienda';
 }
 
