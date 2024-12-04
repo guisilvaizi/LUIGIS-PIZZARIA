@@ -70,9 +70,10 @@ h1, h3 {
 main{
   background-color:#456148;
   margin: 0 auto;
-  width: 768px ;
+  width: 1240px ;
   justify-content: space-between; 
   max-width: 100%; 
+
 }
   
   main a{
@@ -90,11 +91,11 @@ main{
   list-style: none;
   display: flex; 
   justify-content: flex-start; 
-  gap: 50px; 
+  gap: 40px; 
   padding-left:10px;
   margin:0 auto;
   align-items: center;
-  width: 768px;
+  width: 1200px;
   font-family:'Merienda';
 }
 
